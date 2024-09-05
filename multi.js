@@ -10,13 +10,3 @@ Generate a multiplication table for number 9
 //     console.log(`${num} * ${i} = ${result}`);
 //     // console.log( `${num} * ${i} = ${(i * num)}` )
 // }
-let myObject = {
-    name :'joe Doe',
-    age : 25,
-    city :'Panama',
-    isStudent : true
-
-}
-for(const prop in myObject){
-    console.log('key', ':', prop, '|', 'type', ':', typeof(myObject[prop]));
-}
