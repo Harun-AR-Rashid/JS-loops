@@ -19,7 +19,7 @@ while(num <=129){
     
     num++;
 }
-
+console.log(sum);
 
 /***
 
@@ -29,17 +29,17 @@ Display sum of all the even numbers from 51 to 85.
 
  */
 
-let numb = 51;
-let sumb = 0;
-while(numb <=85){
-    console.log(numb);
-    if(numb % 2 === 0){
-        console.log('odd num', numb);
-        sumb = sumb + numb;
-        console.log(sumb);
-    }
+// let numb = 51;
+// let sumb = 0;
+// while(numb <=85){
+//     console.log(numb);
+//     if(numb % 2 === 0){
+//         console.log('odd num', numb);
+//         sumb = sumb + numb;
+//         console.log(sumb);
+//     }
     
-    numb++;
-}
+//     numb++;
+// }
 
 /*programming hero*/
